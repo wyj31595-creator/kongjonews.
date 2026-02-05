@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- [공유 설정] 카카오톡 / SNS 공유 시 보여지는 정보 -->
+    <title>사회적협동조합 공존 - 따듯한 동행</title>
+    <meta name="description" content="발달장애인의 자립과 가족들에게 따듯한 울타리가 되어주세요." />
+
+    <!-- Open Graph (카카오톡, 페이스북 등) -->
+    <meta property="og:title" content="사회적협동조합 공존 - 따듯한 동행" />
+    <meta property="og:description" content="발달장애인의 자립과 가족들에게 따듯한 울타리가 되어주세요." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="사회적협동조합 공존" />
+    
+    <!-- [중요] 카카오톡 공유용 전용 이미지 주소 -->
+    <!-- 카드뉴스 내부 이미지와 다른 이미지를 노출하고 싶다면 아래 URL을 실제 이미지 링크로 바꾸세요. -->
+    <meta property="og:image" content="https://i.postimg.cc/Wp61kH2r/kakao.jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="420" />
+
+    <!-- 트위터 -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="사회적협동조합 공존 - 따듯한 동행" />
+    <meta name="twitter:description" content="발달장애인의 자립과 가족들에게 따듯한 울타리가 되어주세요." />
+    <meta name="twitter:image" content="https://i.postimg.cc/Wp61kH2r/kakao.jpg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        -webkit-text-size-adjust: 100% !important;
+        -ms-text-size-adjust: 100% !important;
+        text-size-adjust: 100% !important;
+      }
+      
+      html, body {
+        height: 100dvh;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f3f4f6;
+      }
+
+      body {
+        font-family: 'Noto Sans KR', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      #root {
+        width: 100%;
+        height: 100dvh;
+      }
+
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "vite": "https://esm.sh/vite@^7.3.1",
+        "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.3",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
